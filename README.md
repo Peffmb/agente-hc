@@ -1,4 +1,4 @@
-# Bem-vindo ao projeto Agente IA HC
+# Bem-vindo ao projeto Agente IA
 
 ## Como posso editar este código?
 
