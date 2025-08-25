@@ -36,6 +36,13 @@ All colors MUST be HSL.
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
 
+    /* Enhanced design tokens for 3D scenes */
+    --hero-gradient-from: 210 40% 98%;
+    --hero-gradient-to: 215.4 16.3% 25%;
+    --spotlight-bg: 0 0% 4%;
+    --glass-border: 0 0% 100% / 0.1;
+    --glass-bg: 0 0% 0% / 0.96;
+    
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
@@ -83,6 +90,13 @@ All colors MUST be HSL.
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+    
+    /* Enhanced dark mode tokens */
+    --hero-gradient-from: 0 0% 95%;
+    --hero-gradient-to: 215.4 16.3% 25%;
+    --spotlight-bg: 0 0% 4%;
+    --glass-border: 0 0% 100% / 0.2;
+    --glass-bg: 0 0% 0% / 0.98;
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -101,5 +115,25 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  .loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid hsl(var(--muted));
+    border-bottom-color: hsl(var(--primary));
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
 }
