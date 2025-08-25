@@ -28,26 +28,26 @@ const Index = () => {
         <div className="grid md:grid-cols-3 gap-8">
           <div className="text-center p-6">
             <div className="w-12 h-12 bg-primary rounded-lg mx-auto mb-4 flex items-center justify-center">
-              <span className="text-primary-foreground text-xl">🎨</span>
+              <span className="text-primary-foreground text-xl">🧠</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Beautiful Design</h3>
-            <p className="text-muted-foreground">Stunning visual effects with responsive design system.</p>
+            <h3 className="text-xl font-semibold mb-2">Assistente Inteligente</h3>
+            <p className="text-muted-foreground">Apoio em tempo real para responder e-mails, esclarecer dúvidas e otimizar a comunicação interna.</p>
           </div>
           
           <div className="text-center p-6">
             <div className="w-12 h-12 bg-primary rounded-lg mx-auto mb-4 flex items-center justify-center">
               <span className="text-primary-foreground text-xl">⚡</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">High Performance</h3>
-            <p className="text-muted-foreground">Optimized 3D scenes with lazy loading and smooth animations.</p>
+            <h3 className="text-xl font-semibold mb-2">Agilidade nos Processos</h3>
+            <p className="text-muted-foreground">Automatiza tarefas administrativas, reduz tempo em atividades repetitivas e facilita fluxos internos no hospital.</p>
           </div>
           
           <div className="text-center p-6">
             <div className="w-12 h-12 bg-primary rounded-lg mx-auto mb-4 flex items-center justify-center">
               <span className="text-primary-foreground text-xl">🚀</span>
             </div>
-            <h3 className="text-xl font-semibold mb-2">Modern Stack</h3>
-            <p className="text-muted-foreground">Built with React, TypeScript, Tailwind CSS, and Spline.</p>
+            <h3 className="text-xl font-semibold mb-2">Tecnologia Avançada</h3>
+            <p className="text-muted-foreground">Baseado em Inteligência Artificial com modelos modernos, pronto para evoluir e se adaptar às necessidades da instituição.</p>
           </div>
         </div>
       </section>
