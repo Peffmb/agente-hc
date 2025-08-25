@@ -8,10 +8,10 @@ const Index = () => {
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-b from-[hsl(var(--hero-gradient-from))] to-[hsl(var(--hero-gradient-to))]">
-            3D Interactive Experience
+            HOSPITAL DO CANCER DE MARINGÁ
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Experience the future of web applications with immersive 3D scenes and interactive spotlight effects.
+            SEU AGENTE DE IA INTERNO PARA AUXILIAR EM PROCESSOS E DÚVIDAS
           </p>
         </div>
         
