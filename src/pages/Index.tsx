@@ -1,5 +1,6 @@
 import { SplineSceneBasic } from "@/components/spline-demo";
 import { SpotlightInteractive } from "@/components/ui/spotlight-interactive";
+import { AIChat } from "@/components/AIChat";
 
 const Index = () => {
   return (
@@ -49,6 +50,17 @@ const Index = () => {
             <p className="text-muted-foreground">Built with React, TypeScript, Tailwind CSS, and Spline.</p>
           </div>
         </div>
+      </section>
+
+      {/* AI Chat Section */}
+      <section className="container mx-auto px-4 py-16">
+        <div className="text-center mb-8">
+          <h2 className="text-3xl font-bold mb-4">Assistente de IA</h2>
+          <p className="text-muted-foreground max-w-2xl mx-auto">
+            Tire suas dúvidas e consulte informações com nosso assistente de inteligência artificial
+          </p>
+        </div>
+        <AIChat />
       </section>
     </div>
   );
